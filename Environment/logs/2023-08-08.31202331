@@ -1,0 +1,24 @@
+[08-Aug-2023 17:55:19 Europe/Berlin] Uncaught exception: "Exception" with message "No route found!"\nStack trace: "#0 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\init.php(20): Core\Router->dispatch('products')
+#1 C:\Users\jaren\OneDrive\Documents\projects\mvc\public\index.php(1): require_once('C:\\Users\\jaren\\...')
+#2 {main}\nThrown in "C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\Core\Router.php" on line 131
+[08-Aug-2023 17:55:41 Europe/Berlin] Uncaught exception: "Exception" with message "No route found!"\nStack trace: "#0 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\init.php(20): Core\Router->dispatch('products')
+#1 C:\Users\jaren\OneDrive\Documents\projects\mvc\public\index.php(1): require_once('C:\\Users\\jaren\\...')
+#2 {main}\nThrown in "C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\Core\Router.php" on line 131
+[08-Aug-2023 17:55:41 Europe/Berlin] Uncaught exception: "Exception" with message "No route found!"\nStack trace: "#0 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\init.php(20): Core\Router->dispatch('products')
+#1 C:\Users\jaren\OneDrive\Documents\projects\mvc\public\index.php(1): require_once('C:\\Users\\jaren\\...')
+#2 {main}\nThrown in "C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\Core\Router.php" on line 131
+[08-Aug-2023 17:55:42 Europe/Berlin] Uncaught exception: "Exception" with message "No route found!"\nStack trace: "#0 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\init.php(20): Core\Router->dispatch('products')
+#1 C:\Users\jaren\OneDrive\Documents\projects\mvc\public\index.php(1): require_once('C:\\Users\\jaren\\...')
+#2 {main}\nThrown in "C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\Core\Router.php" on line 131
+[08-Aug-2023 17:55:48 Europe/Berlin] Uncaught exception: "Twig\Error\LoaderError" with message "Unable to find template "Home/index.htm" (looked into: ../Environment/App/Views)."\nStack trace: "#0 C:\Users\jaren\OneDrive\Documents\projects\mvc\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/index.htm')
+#1 C:\Users\jaren\OneDrive\Documents\projects\mvc\vendor\twig\twig\src\Environment.php(264): Twig\Loader\FilesystemLoader->getCacheKey('Home/index.htm')
+#2 C:\Users\jaren\OneDrive\Documents\projects\mvc\vendor\twig\twig\src\Environment.php(312): Twig\Environment->getTemplateClass('Home/index.htm')
+#3 C:\Users\jaren\OneDrive\Documents\projects\mvc\vendor\twig\twig\src\Environment.php(280): Twig\Environment->load('Home/index.htm')
+#4 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\Core\View.php(63): Twig\Environment->render('Home/index.htm', Array)
+#5 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\App\Controllers\Home.php(45): Core\View::renderTemplate('Home/index.htm', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\Core\Controller.php(45): call_user_func_array(Array, Array)
+#8 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\Core\Router.php(123): Core\Controller->__call('index', Array)
+#9 C:\Users\jaren\OneDrive\Documents\projects\mvc\Environment\init.php(20): Core\Router->dispatch('')
+#10 C:\Users\jaren\OneDrive\Documents\projects\mvc\public\index.php(1): require_once('C:\\Users\\jaren\\...')
+#11 {main}\nThrown in "C:\Users\jaren\OneDrive\Documents\projects\mvc\vendor\twig\twig\src\Loader\FilesystemLoader.php" on line 227
